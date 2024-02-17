@@ -16,7 +16,7 @@
 // let secondNum = +prompt("Enter second number");
 // let sum = 0;
 
-// for( let i = firstNum ; i <=secondNum; i++)   {
+// for( let i = firstNum ; i <= secondNum; i++)   {
 //    sum += i;
 // }
 
@@ -47,10 +47,8 @@
 
 // task 5 name -> eamn
 
-// let value = prompt("Enter a string");
-// let conainer1 = value[3];
-// let conainer2 = value[1]
-// let conainer3 = value[2];
-// let conainer4 = value[0];
-// value = conainer1 + conainer2 + conainer3 + conainer4 ;
-// console.log(value);
+let value = prompt("Enter a string");
+let swapping = value[value.length - 1] + value.slice(1, value.length -1) + value[0];
+console.log(swapping);
+
+
